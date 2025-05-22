@@ -16,3 +16,6 @@ __pycache__/
 
 # Ignore environment files
 .env
+
+# Large video files
+video/parking_1920_1080_loop.mp4
