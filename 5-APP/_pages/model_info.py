@@ -7,6 +7,7 @@ The model is based on MobileNetV2 and is trained to classify parking spots as oc
 '''	
 
 import streamlit as st
+import os
 
 def page():
     st.title("🧠 Model Information")
