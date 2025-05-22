@@ -43,7 +43,8 @@ def page():
     """)
 
     st.subheader("📉 Model Evaluation")
-    st.image("images/model_performance_chart.png", width=500)
+    img_path = os.path.join(os.path.dirname(__file__), "..", "images", "model_performance_chart.png")
+    st.image(img_path, width=500)
     st.markdown("""
     - **Precision**: 99.7%  
     - **Recall**: 99.6%  
